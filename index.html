@@ -4,42 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>1-expanding-cards</title>
+    <title>2-progress-steps</title>
   </head>
   <body>
-    <h1>Expanding Cards</h1>
-    <p>Click an image to expand it</p>
-    <div class="container">
-      <div
-        class="card active"
-        style="background-image: url(https://picsum.photos/800?random=0)"
-      >
-        <h3>image1</h3>
+    <h1>Progress steps</h1>
+    <div class="c1">
+      <div class="container">
+        <div class="progress-bar"></div>
+        <div class="circle active">1</div>
+        <div class="circle">2</div>
+        <div class="circle">3</div>
+        <div class="circle">4</div>
       </div>
-      <div
-        class="card"
-        style="background-image: url(https://picsum.photos/800?random=1)"
-      >
-        <h3>image2</h3>
-      </div>
-      <div
-        class="card"
-        style="background-image: url(https://picsum.photos/800?random=2)"
-      >
-        <h3>image3</h3>
-      </div>
-      <div
-        class="card"
-        style="background-image: url(https://picsum.photos/800?random=3)"
-      >
-        <h3>image4</h3>
-      </div>
-      <div
-        class="card"
-        style="background-image: url(https://picsum.photos/800?random=4)"
-      >
-        <h3>image5</h3>
-      </div>
+    </div>
+    <div class="buttons">
+      <button class="prev-btn" disabled>Prev</button>
+      <button class="next-btn">Next</button>
     </div>
     <script src="script.js"></script>
   </body>
