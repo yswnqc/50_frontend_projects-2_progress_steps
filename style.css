@@ -81,15 +81,16 @@ button {
   margin: 5px;
   font-size: 14px;
   cursor: pointer;
-}
-
-button:active {
-  transform: scale(0.98);
+  transition: transform 0.2s;
 }
 
 button:hover {
   background-color: #2978c2;
-  transform: scale(1.02);
+  transform: scale(1.05);
+}
+
+button:hover:active {
+  transform: scale(0.95);
 }
 
 button:disabled {
@@ -97,4 +98,3 @@ button:disabled {
   cursor: not-allowed;
   transform: none;
 }
-
