@@ -4,7 +4,9 @@
 
 [DEMO](https://yswnqc.github.io/50_frontend_projects-2_progress_steps/) here.
 
-Make a little difference.
+### Make a little difference
+- Button press animation
+- Progress animation with delay
 
 From [50projects50days](https://50projects50days.com).
 
